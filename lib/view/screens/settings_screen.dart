@@ -1,6 +1,6 @@
+import 'package:parking_flutter_raro/controllers/car_spot_controller.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:parking_flutter_raro/controllers/car_spot_controller.dart';
 
 class SettingsScreen extends StatefulWidget {
   const SettingsScreen({Key? key}) : super(key: key);

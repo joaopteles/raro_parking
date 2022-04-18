@@ -1,9 +1,9 @@
-import 'package:get/get.dart';
 import 'package:parking_flutter_raro/controllers/car_spot_controller.dart';
 import 'package:parking_flutter_raro/controllers/park_controller.dart';
 import 'package:parking_flutter_raro/view/screens/home_screen.dart';
 import 'package:splash_screen_view/SplashScreenView.dart';
 import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class Splash extends StatefulWidget {
   const Splash({Key? key}) : super(key: key);

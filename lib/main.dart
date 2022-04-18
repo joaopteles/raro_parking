@@ -1,7 +1,7 @@
-import 'package:flutter/material.dart';
-import 'package:parking_flutter_raro/core/inject/injector.dart';
 import 'package:parking_flutter_raro/core/routes/app_routes.dart';
+import 'package:parking_flutter_raro/core/inject/injector.dart';
 import 'package:parking_flutter_raro/view/theme.dart';
+import 'package:flutter/material.dart';
 
 Future<void> main() async {
   initInjector();

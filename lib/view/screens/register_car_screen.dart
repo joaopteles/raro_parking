@@ -74,7 +74,8 @@ class RegisterCarScreen extends StatelessWidget {
                   ),
                   onPressed: () {
                     parkController.addCar();
-                    Navigator.popAndPushNamed(context, BaseRoutes.homeScreen);
+                    Navigator.pushNamedAndRemoveUntil(
+                        context, BaseRoutes.homeScreen, (route) => false);
                   },
                 ),
               ),

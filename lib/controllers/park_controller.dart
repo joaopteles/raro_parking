@@ -1,8 +1,8 @@
 import 'package:parking_flutter_raro/controllers/car_spot_controller.dart';
-import 'package:parking_flutter_raro/model/car_model.dart';
-import 'package:parking_flutter_raro/model/park_model.dart';
-import 'package:get/get.dart';
 import 'package:parking_flutter_raro/repository/sqflte_car.dart';
+import 'package:parking_flutter_raro/model/park_model.dart';
+import 'package:parking_flutter_raro/model/car_model.dart';
+import 'package:get/get.dart';
 
 class ParkController extends GetxController {
   RxList<CarModel> parkList = <CarModel>[].obs;

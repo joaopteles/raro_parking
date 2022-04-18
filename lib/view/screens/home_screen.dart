@@ -1,10 +1,10 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:parking_flutter_raro/controllers/car_spot_controller.dart';
-import 'package:parking_flutter_raro/view/screens/exit_screen.dart';
+import 'package:parking_flutter_raro/view/screens/settings_screen.dart';
 import 'package:parking_flutter_raro/view/screens/parking_screen.dart';
 import 'package:parking_flutter_raro/view/screens/report_screen.dart';
-import 'package:parking_flutter_raro/view/screens/settings_screen.dart';
+import 'package:parking_flutter_raro/view/screens/exit_screen.dart';
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class HomeScreen extends StatelessWidget {
   HomeScreen({Key? key}) : super(key: key);

@@ -1,8 +1,8 @@
-import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:parking_flutter_raro/controllers/car_spot_controller.dart';
 import 'package:parking_flutter_raro/controllers/park_controller.dart';
 import 'package:parking_flutter_raro/core/routes/app_routes.dart';
+import 'package:flutter/material.dart';
+import 'package:get/get.dart';
 
 class ParkScreen extends StatelessWidget {
   ParkScreen({Key? key}) : super(key: key);
