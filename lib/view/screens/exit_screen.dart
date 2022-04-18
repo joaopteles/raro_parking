@@ -38,7 +38,7 @@ class ExitScreen extends StatelessWidget {
                               const Icon(Icons.car_repair, color: Colors.amber),
                           onPressed: () async {
                             showModalBottomSheet<void>(
-                              builder: (context) => Container(
+                              builder: (context) => SizedBox(
                                 height: 200,
                                 child: Column(
                                   children: [
@@ -65,11 +65,6 @@ class ExitScreen extends StatelessWidget {
                                               'Proprietário: ${car.ownerName}'),
                                         ],
                                       ),
-                                    ),
-                                    Row(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.spaceEvenly,
-                                      children: [],
                                     ),
                                     Row(
                                       mainAxisAlignment:
