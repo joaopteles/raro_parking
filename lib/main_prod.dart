@@ -4,7 +4,7 @@ import 'package:parking_flutter_raro/view/theme.dart';
 import 'package:flutter/material.dart';
 
 Future<void> main() async {
-  initInjector();
+  initInjector(env: environment.production);
   runApp(const MyApp());
 }
 

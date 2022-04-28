@@ -36,11 +36,13 @@ dependencies:
   sqflite: ^2.0.2
   mask_text_input_formatter: ^2.3.0
   mockito: ^5.1.0
+  code_builder: ^4.1.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^1.0.0
+  build_runner: ^2.1.10
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
